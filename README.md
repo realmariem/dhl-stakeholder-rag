@@ -274,9 +274,9 @@ Evaluated on a 5-question test set against the DHL guideline.
 
 | Metric | rag_v1.0 | rag_v2.0 | Change |
 |---|---|---|---|
-| Answer Relevancy |  0.976  | 0.945 | +0.031 |
-| Faithfulness | 0.850 | 0.874 | 0.024 |
-| Context Precision | 0.933 | 0.883 | 0.050 |
+| Answer Relevancy |  0.976  | 0.945 | - 0.031 |
+| Faithfulness | 0.850 | 0.874 | + 0.024 |
+| Context Precision | 0.933 | 0.883 | - 0.050 |
 
 > Scores are filled automatically when the RAGAS evaluation cell runs and written back to the YAML files via `update_eval_scores()`.
 

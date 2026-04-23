@@ -274,9 +274,9 @@ Evaluated on a 5-question test set against the DHL guideline.
 
 | Metric | rag_v1.0 | rag_v2.0 | Change |
 |---|---|---|---|
-| Answer Relevancy | — | — | — |
-| Faithfulness | — | — | — |
-| Context Precision | — | — | — |
+| Answer Relevancy |  0.976  | 0.945 | +0.031 |
+| Faithfulness | 0.850 | 0.874 | 0.024 |
+| Context Precision | 0.933 | 0.883 | 0.050 |
 
 > Scores are filled automatically when the RAGAS evaluation cell runs and written back to the YAML files via `update_eval_scores()`.
 
@@ -292,10 +292,10 @@ The Action Advisor (Agent 3) is evaluated independently across 3 test scenarios 
 
 | Metric | action_advisor_v1.0 | action_advisor_v2.0 | Change |
 |---|---|---|---|
-| Guideline Faithfulness | — | — | — |
-| Urgency Appropriateness | — | — | — |
-| Action Concreteness | — | — | — |
-| Overall Score | — | — | — |
+| Guideline Faithfulness | 4 | 4 | tie |
+| Urgency Appropriateness | 5 | 5 | tie |
+| Action Concreteness | 5 | 5 | tie |
+| Overall Score | 4.70 | 4.70 | tie |
 
 > Scores filled automatically after the LLM-as-Judge cell runs.
 

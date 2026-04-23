@@ -1,0 +1,32 @@
+# Core LLM & RAG
+langchain
+langchain-community
+langchain-groq
+langchain-text-splitters
+langchain-core
+
+# Vector store & embeddings
+chromadb
+sentence-transformers
+
+# Agent orchestration
+langgraph
+
+# PDF parsing
+pypdf
+
+# RAG evaluation
+ragas
+datasets
+
+# LLM-as-Judge tracing
+langsmith
+
+# Web search tool
+tavily-python
+
+# Prompt versioning (YAML files)
+pyyaml
+
+# Environment variable management
+python-dotenv

@@ -1,0 +1,24 @@
+version: "1.0"
+created: "2025-04-21"
+author: "Mariem"
+status: "deprecated"
+system: "rag"
+change_log: >
+  Initial version. Direct Q&A style with no structural guidance.
+  Deprecated after RAGAS evaluation showed low Answer Relevance
+  and Faithfulness — model answered loosely without staying
+  grounded in the document.
+eval_scores: null
+
+template: |
+  You are a helpful assistant answering questions about DHL Group's stakeholder engagement policies.
+
+  Use the following context from the official DHL Stakeholder Engagement Guideline to answer the question.
+  If the answer is not in the context, say you don't know.
+
+  Context:
+  {context}
+
+  Question: {question}
+
+  Answer:

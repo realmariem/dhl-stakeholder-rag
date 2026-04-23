@@ -1,0 +1,30 @@
+# ── Secrets ───────────────────────────────────────────────────
+.env
+
+# ── Python ────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+
+# ── Jupyter ───────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Vector store (auto-generated, do not commit) ──────────────
+chroma_db/
+*.chroma
+
+# ── Uploaded documents (may contain sensitive content) ────────
+docs/
+*.pdf
+
+# ── OS ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Evaluation outputs (too large for Git) ────────────────────
+eval_results/
